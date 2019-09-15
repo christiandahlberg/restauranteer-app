@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/edit_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="5"
+            android:stepSize="1"
+            android:isIndicator="true" />
+
+        <TextView
+            android:id="@+id/location_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingLeft="4dp"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
+            android:gravity="end"
+            android:textColor="#9FA7A3"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autofillHints="@string/hint_title"
+        android:ems="10"
+        android:hint="@string/hint_title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/desc_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autofillHints="@string/hint_description"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hint_description"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/image_placeholder"
+        android:contentDescription="@string/placeholder_image"
+        android:tag="placeholder"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/ic_add_location"
+        android:drawableLeft="@drawable/ic_add_location"
+        android:text="@string/button_add_location" />
+
+</LinearLayout>

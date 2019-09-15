@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Restauranteer</string>
+    <string name="navbar_home">Home</string>
+    <string name="logo_type">Logo</string>
+    <string name="placeholder_image">Content</string>
+
+    <!-- Titles -->
+    <string name="title_dashboard">Restaurants</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_home">Restauranteer</string>
+    <string name="hint_title">What restaurant?</string>
+    <string name="sub_title">Store your favourite restaurants in one place!</string>
+
+    <!-- Restaurant item options -->
+    <string name="restaurant_text">Restaurant</string>
+    <string name="restaurant_location">-</string>
+    <string name="restaurant_desc">Description</string>
+    <string name="no_restaurants"><![CDATA[
+ Oops, nothing to see here.\n
+ Add restaurants in the top right corner!
+  ]]> .</string>
+
+    <!-- Descriptions -->
+    <string name="hint_description">Describe your experience.</string>
+    <string name="picture_description">Restaurant picture</string>
+
+    <!-- Text options -->
+    <string name="placeholder_desc">Enter description here</string>
+    <string name="placeholder_title">Enter title here</string>
+    <string name="placeholder_textView">TextView</string>
+    <string name="button_add_location">Set location</string>
+    <string name="restaurant_counter">Currently stored places: </string>
+
+    <!-- Map options -->
+    <string name="normal_map">Normal</string>
+    <string name="hybrid_map">Hybrid</string>
+    <string name="satellite_map">Satellite</string>
+    <string name="terrain_map">Terrain</string>
+
+    <!-- Action bar options -->
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+
+    <!-- Button options -->
+    <string name="restaurant_button"> Add Restaurant</string>
+    <string name="location_button">Get Location</string>
+    <string name="button_save">SAVE</string>
+
+
+</resources>
